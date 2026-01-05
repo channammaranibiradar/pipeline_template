@@ -1,5 +1,10 @@
-version: 1
-type: pipeline-template-catalog
-
-name: customerPortalFrontendTeamCatalog
-displayName: Shared Template Catalog for Teams Working on the Customer Portal
+apiVersion: "templates.cloudbees.com/v1alpha1"
+kind: "Catalog"
+metadata:
+  name: "customerPortalFrontendTeamCatalog"
+  displayName: "Customer Portal Templates"
+spec:
+  templates:
+    - name: "simple-test"
+      description: "Simple test pipeline"
+      url: "templates/simple-test.yaml"
