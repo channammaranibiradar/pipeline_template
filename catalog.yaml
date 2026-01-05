@@ -1,18 +1,5 @@
-apiVersion: "templates.cloudbees.com/v1alpha1"
-kind: "Catalog"
-metadata:
-  name: "customerPortalFrontendTeamCatalog"
-  displayName: "Shared Template Catalog for Teams Working on the Customer Portal"
-spec:
-  templates:
-    - name: "customer-portal-frontend"
-      description: "Frontend pipeline for Customer Portal applications"
-      url: "templates/customer-portal-frontend.yaml"
-    
-    - name: "nodejs-microservice"
-      description: "Node.js microservice pipeline with testing"
-      url: "templates/nodejs-microservice.yaml"
-    
-    - name: "security-scan-pipeline"
-      description: "Security scanning and vulnerability check"
-      url: "templates/security-scan.yaml"
+version: 1
+type: pipeline-template-catalog
+
+name: customerPortalFrontendTeamCatalog
+displayName: Shared Template Catalog for Teams Working on the Customer Portal
