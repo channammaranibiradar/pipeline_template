@@ -3,14 +3,14 @@ kind: "Template"
 metadata:
   name: "simple-test"
 spec:
-  description: "Simple 1 stage Jenkinsfile"
+  description: "Simple test pipeline"
   template: |
     pipeline {
       agent any
       stages {
-        stage('Test') {
+        stage('Hello') {
           steps {
-            echo '✅ Simple pipeline is working!'
+            echo '✅ Template is working!'
           }
         }
       }
