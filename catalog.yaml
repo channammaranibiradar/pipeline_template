@@ -5,6 +5,9 @@ metadata:
   displayName: "Test Catalog"
 spec:
   templates:
+    - name: "java-maven-pipeline"
+      description: "Java Maven App Pipeline Job"
+      url: "templates/java-maven.yaml"
     - name: "simple-test"
       description: "Simple test pipeline"
       url: "templates/simple-test.yaml"
