@@ -1,0 +1,17 @@
+apiVersion: "templates.cloudbees.com/v1alpha1"
+kind: "Template"
+metadata:
+  name: "simple-test"
+spec:
+  description: "Simple test pipeline"
+  template: |
+    pipeline {
+      agent any
+      stages {
+        stage('Test') {
+          steps {
+            echo '✅ CloudBees Template is working!'
+          }
+        }
+      }
+    }
