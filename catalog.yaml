@@ -2,7 +2,7 @@ apiVersion: "templates.cloudbees.com/v1alpha1"
 kind: "Catalog"
 metadata:
   name: "customerPortalFrontendTeamCatalog"
-  displayName: "Shared Template Catalog for Teams Working on the Customer Portal"
+  displayName: "Shared Template Catalog"
 spec:
   templates:
     - name: "simple-test"
