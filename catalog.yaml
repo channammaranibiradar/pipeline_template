@@ -1,13 +1,10 @@
 apiVersion: "templates.cloudbees.com/v1alpha1"
 kind: "Catalog"
 metadata:
-  name: "test-catalog"
-  displayName: "Test Catalog"
+  name: "customerPortalFrontendTeamCatalog"
+  displayName: "Shared Template Catalog for Teams Working on the Customer Portal"
 spec:
   templates:
-    - name: "java-maven-pipeline"
-      description: "Java Maven App Pipeline Job"
-      url: "templates/java-maven.yaml"
     - name: "simple-test"
       description: "Simple test pipeline"
       url: "templates/simple-test.yaml"
